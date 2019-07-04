@@ -1,0 +1,140 @@
+/* CSS files add styling rules to your content */
+
+body{
+  background-color: #eee;
+}
+
+.container{
+  width: 500px;
+  height: 300px;
+  margin:25vh auto;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.5)
+}
+
+.header {
+  height: 15%;
+  background-color: #4056F4;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  position:relative;
+}
+
+#temp, #humidity-div {
+  font-family: "Tahoma";
+  font-weight: bold;
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.city-icon-holder {
+  position:absolute;
+  left: 25%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#city-name {
+  font-family: "Tahoma";
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#icon {
+  width:50%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.city-icon {
+  height: 80%;
+  width: 50%;
+/*   border-bottom-left-radius: 25px; */
+  background-color: #FF495C;
+}
+
+.temperature {
+  position: absolute;
+  left: 50%;
+  top:0%;
+  height: 40%;
+  width: 50%;
+  background-color: #F0F66E;
+}
+
+.humidity {
+  height: 40%;
+  width: 50%;
+  position:absolute;
+  left:50%;
+  top:40%;
+/*   border-bottom-right-radius: 25px; */
+  background-color: #3DDC97;
+}
+
+#search-btn {
+  width: 40px;
+  height:40px;
+  color: #eee;
+}
+
+#search-txt {
+  color: #4056F4;
+  height:30px;
+  border-radius: 10px;
+  border-style:none;
+  outline:none;
+  padding-right:1px;
+  padding-left:1px;
+  text-align:center;
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+}
+
+
+.temp_min{
+  font-family: "Tahoma";
+  position:absolute;
+  color: #ccc;
+  bottom:0%;
+  left: 5%;
+}
+.temp_max{
+  font-family: "Tahoma";
+  position:absolute;
+  color: #ccc;
+  bottom:0%;
+  right: 5%;
+}
+.weather-div{
+  font-family: "Tahoma";
+  color:#fff;
+}
+
+.footer {
+  height: 15%;
+  background-color: #4056F4;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+  position:relative;
+}
