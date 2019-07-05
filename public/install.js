@@ -82,3 +82,4 @@ function logAppInstalled(evt) {
   console.log('App was installed.', evt);
 
 }
+

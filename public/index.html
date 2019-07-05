@@ -18,26 +18,27 @@
   
   <meta name="description" content="OpenWeatherMaps API PWA">
   
-  <meta name="theme-color" content="#68b0f5" />
+  <meta name="theme-color" content="#68B0F5" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="style.css">
-
-  
+  <link rel="stylesheet" href="style.css"> 
 </head>
 
-<body>
+<body onload="getLocation()">
 
   <div class="container">
+    
     <header class="header">
+      <button id="butInstall" aria-label="Install" ></button>
       <div class="search">
-        <input type="text" placeholder="Enter City Name" id="search-txt">
+        <input type="text" placeholder="Enter city name" id="search-txt">
         <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
       </div>
-      <button id="butInstall" aria-label="Install" hidden></button>
+      
+      
     </header>
-    <script src="/scripts/install.js"></script>
-
+    
+    
     <main id="main">
 
       <div class="city-icon">
@@ -61,7 +62,7 @@
   
   </div>
   <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
-
+<!--   <script src="install.js"></script> -->
   <script  src="script.js"></script>
   
   <script>
