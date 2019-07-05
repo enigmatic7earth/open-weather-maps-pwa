@@ -14,11 +14,21 @@ body{
 
 .header {
   height: 15%;
-  background-color: #4056F4;
+  background-color: #68B0F5;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   text-align: center;
   position:relative;
+}
+
+.header #butInstall {
+  background: url(/images/install.svg) center center no-repeat;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  height: 26px;
+  width: 26px;
+  border-style: none;
 }
 
 #temp, #humidity-div {
@@ -32,6 +42,7 @@ body{
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
 
 .city-icon-holder {
   position:absolute;
@@ -63,7 +74,7 @@ body{
   height: 80%;
   width: 50%;
 /*   border-bottom-left-radius: 25px; */
-  background-color: #FF495C;
+  background-color: #FEC52C;
 }
 
 .temperature {
@@ -72,7 +83,7 @@ body{
   top:0%;
   height: 40%;
   width: 50%;
-  background-color: #F0F66E;
+  background-color: #E4D6A7;
 }
 
 .humidity {
@@ -82,7 +93,7 @@ body{
   left:50%;
   top:40%;
 /*   border-bottom-right-radius: 25px; */
-  background-color: #3DDC97;
+  background-color: #E9B44C;
 }
 
 #search-btn {
@@ -92,7 +103,7 @@ body{
 }
 
 #search-txt {
-  color: #4056F4;
+  color: #68B0F5;
   height:30px;
   border-radius: 10px;
   border-style:none;
@@ -114,25 +125,25 @@ body{
 .temp_min{
   font-family: "Tahoma";
   position:absolute;
-  color: #ccc;
+  color: #7e7e7e;
   bottom:0%;
   left: 5%;
 }
 .temp_max{
   font-family: "Tahoma";
   position:absolute;
-  color: #ccc;
+  color: #7e7e7e;
   bottom:0%;
   right: 5%;
 }
 .weather-div{
   font-family: "Tahoma";
-  color:#fff;
+  color:#7e7e7e;
 }
 
 .footer {
   height: 15%;
-  background-color: #4056F4;
+  background-color: #68B0F5;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   text-align: center;
