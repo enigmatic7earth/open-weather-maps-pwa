@@ -4,9 +4,7 @@ Following the tutorial on [Boostlog.io](https://boostlog.io/@israrawan/weather-a
 
 
 
-Project
-------------
-Description
+Project description
 ---
 The PWA displays basic weather information about a city, state or country based on what the user types in the search textbox.
 By default it desplays the user's current location's weather information, provided the user has granted **location access**.
