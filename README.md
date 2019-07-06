@@ -28,7 +28,7 @@ On the back-end,
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
 
-Made by [Glitch](https://glitch.com/)
+Made with [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ
