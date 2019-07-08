@@ -4,9 +4,7 @@ Following the tutorial on [Boostlog.io](https://boostlog.io/@israrawan/weather-a
 
 
 
-Project
-------------
-Description
+Project description
 ---
 The PWA displays basic weather information about a city, state or country based on what the user types in the search textbox.
 By default it desplays the user's current location's weather information, provided the user has granted **location access**.
@@ -23,12 +21,12 @@ On the front-end,
 - `public/images` : Folder holding the required images as well as icons.
 
 On the back-end,
-- your app starts at `server.js`, which is basically a glitch-hosted, Express server.
+- your app starts at `server.js`, which is basically a Glitch-hosted, Express server.
 - add frameworks and packages in `package.json`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
 
-Made by [Glitch](https://glitch.com/)
+Made with [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ
