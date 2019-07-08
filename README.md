@@ -23,7 +23,7 @@ On the front-end,
 On the back-end,
 - your app starts at `server.js`, which is basically a Glitch-hosted, Express server.
 - add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
 
 
 Made with [Glitch](https://glitch.com/)
