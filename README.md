@@ -13,7 +13,7 @@ By default it desplays the user's current location's weather information, provid
 
 On the front-end,
 - `public/index.html` : The main as well as start page of the PWA. 
-- `public/offline.html` : The webpage that is displayed to the user when they are offline.
+- `public/offline.html` : The webpage that is displayed to the users when they are offline.
 - `public/manifest.json` : The manifest JSON file required by PWAs.
 - `public/service-worker.js`: The service worker responsible to handle the PWA.
 - `public/style.css` : The stylesheet of the PWA.
@@ -23,7 +23,7 @@ On the front-end,
 On the back-end,
 - your app starts at `server.js`, which is basically a Glitch-hosted, Express server.
 - add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+
 
 
 Made with [Glitch](https://glitch.com/)
