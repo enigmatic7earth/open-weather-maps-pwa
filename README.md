@@ -13,7 +13,7 @@ By default it desplays the user's current location's weather information, provid
 
 On the front-end,
 - `public/index.html` : The main as well as start page of the PWA. 
-- `public/offline.html` : The webpage that is displayed to the user when they are offline.
+- `public/offline.html` : The webpage that is displayed to the users when they are offline.
 - `public/manifest.json` : The manifest JSON file required by PWAs.
 - `public/service-worker.js`: The service worker responsible to handle the PWA.
 - `public/style.css` : The stylesheet of the PWA.
