@@ -39,7 +39,7 @@ Find out more [about Glitch](https://glitch.com/about).
 
 Installation
 -----
-- To install the PWA on your device, go to [OpenWeatherMaps API PWA](https://enigmatic7earth-open-weather-maps-pwa.glitch.me/) and click the install icon: ![alt text](https://github.com/enigmatic7earth/open-weather-maps-pwa/blob/master/public/images/install.svg "Install PWA")
+- To install the PWA on your device, go to [OpenWeatherMaps API PWA](https://openweathermaps-pwa.glitch.me/) and click the install icon: ![alt text](https://github.com/enigmatic7earth/open-weather-maps-pwa/blob/master/public/images/install.svg "Install PWA")
 
 Screenshot
 ----
